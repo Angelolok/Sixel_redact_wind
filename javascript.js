@@ -87,4 +87,3 @@ colr_cells.forEach(colr_cell => {
         CURRENT_COLOR = getComputedStyle(colr_cell).backgroundColor;
     })
 })
-
