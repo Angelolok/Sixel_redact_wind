@@ -81,6 +81,8 @@ body {
 
 .laststick {
     background-color: rgb(45, 45, 55);
+    width: 30%;
+    height: 10%;
 }
 
 .redactwind {
@@ -90,6 +92,7 @@ body {
     display: grid;
     grid-template-columns: repeat(30, 1fr);
     grid-template-rows: repeat(30, 1fr);
+    gap: 1px;
 }
 
 .klet {
@@ -118,4 +121,9 @@ body {
     margin-right: 1em;
     user-select: none;
     cursor: pointer;
+}
+
+.zaliv {
+    width: 30%;
+    height: 10%;
 }
